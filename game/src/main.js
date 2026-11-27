@@ -2,7 +2,7 @@
 // missions, scoring and screens. A golden-hour flight game over a coastal
 // bay: take off from Kestrel Field, fly the mail rings, land on the strip
 // by the lighthouse before the sun goes down.
-import * as THREE from '../vendor/three.module.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { WORLD, RUNWAYS, RINGS, MISSIONS, PHYSICS, BEST_KEY, FONT } from './config.js';
 import { createFlight, stepFlight, distanceTo, runwayAt, windAt } from './flight.js';
 import { createWorld, mulberry32 } from './world.js';

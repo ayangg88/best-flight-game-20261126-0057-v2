@@ -1,7 +1,7 @@
 // Kestrel Bay Mail Run — the world: golden-hour sky, terrain, town, rings.
 // Everything the screenshot judge sees lives here. Seeded, so the same seed
 // always builds the same bay. Units are metres, y up, sea level y = 0.
-import * as THREE from '../vendor/three.module.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { WORLD, RUNWAYS, RINGS, MISSIONS } from './config.js';
 
 // --- Seeded random ---------------------------------------------------------

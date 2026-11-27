@@ -1,7 +1,7 @@
 // Kestrel Bay Mail Run — the aircraft: a low-poly mail plane in cream,
 // teal and sunset orange, with a spinning prop, blinking nav lights and
 // wingtip contrails. Built from primitives; no external model files.
-import * as THREE from '../vendor/three.module.js';
+import * as THREE from '../vendor/three.module.min.js';
 
 export function createPlane() {
   const group = new THREE.Group();
